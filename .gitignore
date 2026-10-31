@@ -1,0 +1,18 @@
+# Lake dependency and build cache
+/.lake/
+
+# Generated Lean artifacts
+*.olean
+*.ilean
+
+# Editor and temporary files
+.DS_Store
+*~
+*.swp
+*.swo
+*.tmp
+
+# Local environment files
+.env
+.env.*
+!.env.example
